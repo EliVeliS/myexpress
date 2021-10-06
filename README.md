@@ -3,8 +3,8 @@ testi
 
 //Tässä tehtävän 15 tiedostojen sisällöt:
 
-/* HELLO WORLD
-C:\Git\myexpress\hello_world\server.js:
+// HELLO WORLD
+// C:\Git\myexpress\hello_world\server.js:
 var express = require('express');
 var app = express();
 
@@ -18,11 +18,11 @@ var server = app.listen(8081, function () {
    
   console.log("Example app listening at http://%s:%s", host, port)
 })
-*/
 
 
-/* BASIC ROUTING
-C:\Git\myexpress\basic_routing\server.js:
+
+// BASIC ROUTING
+// C:\Git\myexpress\basic_routing\server.js:
 var express = require('express');
 var app = express();
 
@@ -65,10 +65,10 @@ var server = app.listen(8081, function () {
 */
 
 
-/* SERVING STATIC FILES
-C:\Git\myexpress\serving_static_files\server.js
-C:\Git\myexpress\serving_static_files\node_modules
-C:\Git\myexpress\serving_static_files\public\images\logo.png:
+// SERVING STATIC FILES
+//C:\Git\myexpress\serving_static_files\server.js
+//C:\Git\myexpress\serving_static_files\node_modules
+//C:\Git\myexpress\serving_static_files\public\images\logo.png:
 var express = require('express');
 var app = express();
 
@@ -84,9 +84,9 @@ var server = app.listen(8081, function () {
 
    console.log("Example app listening at http://%s:%s", host, port)
 })
-*/
 
-/* GET METHOD
+
+// GET METHOD
 C:\Git\myexpress\get-method\server.js:
 var express = require('express');
 var app = express();
@@ -125,9 +125,9 @@ C:\Git\myexpress\get-method\index.htm:
       
    </body>
 </html>
-*/
 
-/* POST METHOD
+
+// POST METHOD
 C:\Git\myexpress\post-method\server.js:
 var express = require('express');
 var app = express();
@@ -170,10 +170,10 @@ C:\Git\myexpress\post-method\index.htm:
       
    </body>
 </html>
-*/
 
 
-/* FILE UPLOAD
+
+// FILE UPLOAD
 C:\Git\myexpress\file_upload\server.js:
 var express = require('express');
 var app = express();
@@ -239,11 +239,11 @@ C:\Git\myexpress\file_upload\index.htm:
       
    </body>
 </html>
-*/
 
 
-/* COOKIES MANAGEMENT
-C:\Git\myexpress\cookies_management\server.js:
+
+// COOKIES MANAGEMENT
+//C:\Git\myexpress\cookies_management\server.js:
 var express      = require('express')
 var cookieParser = require('cookie-parser')
 
@@ -254,4 +254,4 @@ app.get('/', function(req, res) {
    console.log("Cookies: ", req.cookies)
 })
 app.listen(8081)
-*/
+
